@@ -19,10 +19,19 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<java.version>1.8</java.version>
+	<jaunt.home>C:\dev\jars\jaunt1.3.3_nr\jaunt1.3.3_nr.jar</jaunt.home>
   </properties>
 
   <dependencies>
 	  <!-- EXTERNAL -->
+     <dependency>
+    	<groupId>com.jaunt</groupId>
+    	<artifactId>jaunt-api</artifactId>
+    	<version>1.3.3</version>
+    	<scope>system</scope>
+    	<systemPath>${jaunt.home}</systemPath>
+    </dependency>
+	  
 	  
 	<dependency>
 		<groupId>com.fasterxml.jackson.core</groupId>
